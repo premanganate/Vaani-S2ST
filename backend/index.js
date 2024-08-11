@@ -20,8 +20,8 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
     try {
       const result = await s2st(
-        "222cde7638ca43c8a8fedca2f63369bd",
-        "2205d5c2e9-2e4e-4acf-8d00-847f2d17bf9d",
+        "<Your_User_ID>",
+        "<Your_API_Key>",
         "testbase64.txt",
         translationDirection.src,
         translationDirection.target,
